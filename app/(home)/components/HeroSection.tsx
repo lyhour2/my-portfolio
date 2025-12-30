@@ -1,5 +1,7 @@
+import { MovingBorderBtn } from '@/components/ui/moving-border'
 import Link from 'next/link'
 import React from 'react'
+import Title from './Title'
 
 export default function Herosection() {
   return (
@@ -15,18 +17,13 @@ export default function Herosection() {
               }
           </p>
           <Link href={"mailto:lhour8529@gmail.com"} className='inline-block'>
-          <div>
-               <h1 className='text-3xl font-bold group-hover:text-pink-400 transition-all'>
-                    Contact Me 📬
-               </h1>
-               <div className='w-40 h-2 bg-pink-500 rounded-full'></div>
-               <div className='w-40 h-2 bg-indigo-500 rounded-full translate-x-2'></div>
-
-          </div>
+          
+          <Title text="Contact Me 📬"/>
+          
           </Link>
      </div>
 
-     <div>
+     <div className=" relative">
           <div className='h-72 w-72 space-y-3 -rotate-[30deg] relative'>
                <div className='flex gap-3 translate-x-8'>
                     <div className='w-32 h-32 rounded-2xl bg-indigo-500'></div>
@@ -44,6 +41,15 @@ export default function Herosection() {
                </div>
 
           </div>
+
+          <div className=" absolute buttom-5 sm:bottom-14 left-0 sm: -left-10 ">
+
+          <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
+               <p>💬 Available for Work</p>
+          </MovingBorderBtn>
+          </div>
+
+
      </div>
     </div>
   )

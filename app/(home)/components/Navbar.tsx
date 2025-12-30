@@ -11,12 +11,12 @@ export default function Navbar() {
                Icon : SiLinkedin,
           },
           {
-               link : "https://www.linkedin.com/in/lihour-phon-1949b6270/",
+               link : "https://github.com/lyhour2",
                label : "GitHub",
                Icon : SiGithub
           },
           {
-               link : "https://www.linkedin.com/in/lihour-phon-1949b6270/",
+               link : "https://web.facebook.com/li.lyhour97",
                label : "FaceBook",
                Icon : SiFacebook,
           }
