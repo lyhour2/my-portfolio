@@ -5,7 +5,7 @@ import Title from './Title'
 
 export default function Herosection() {
   return (
-    <div className=' min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between'>
+    <div className=' min-h-[60vh] flex flex-col-reverse gap-6 lg:gap-10 lg:flex-row items-center justify-center'>
      <div className='space-y-10 text-center lg:text-left lg:ml-20 lg:-mt-20'> 
           <h1 className='text-4xl lg:text-7xl font-bold'>
                LIHOUR PHON 👩🏻‍💻
@@ -24,7 +24,7 @@ export default function Herosection() {
      </div>
 
      <div className=" relative">
-          <div className="relative lg:-top-2 lg:-left-20 h-90 w-72 ml-20">
+          <div className="relative lg:-top-2 lg:-left-8 h-90 w-72 lg:ml-20">
                <MovingBorderBtn borderRadius="1rem" className="p-0" >
                     <img
                     src="/my-image.png"
