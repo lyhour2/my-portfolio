@@ -24,8 +24,8 @@ export default function Navbar() {
      ]
 
   return (
-    <nav className='py-10 flex justify-between items-center'>
-     <h1 className='text-2xl font-bold underline underline-offset-8 decoration-pink-500 -rotate-2'>PhonLihour 👩🏻‍💻</h1>
+    <nav className='py-10 flex justify-between items-center lg:ml-20'>
+     {/* <h1 className='text-2xl font-bold underline underline-offset-8 decoration-pink-500 -rotate-2'> Welcome</h1> */}
      <div className='flex items-center gap-5'>
           {socails.map((socails,index)=>{
                const Icon = socails.Icon
